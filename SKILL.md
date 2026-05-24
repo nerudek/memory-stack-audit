@@ -5,6 +5,7 @@ version: 1.0.0
 author: nerudek
 compatible-with: claude-code, openclaw, hermes-agent
 tags: [memory, chromadb, obsidian, mempalace, audit, debugging, python-3.14]
+license: "MIT"
 ---
 
 # Memory Stack Audit — May 2026: What Actually Works in AI Agent Memory
@@ -120,3 +121,20 @@ Short term: document what actually works (this audit). Medium term: add verifica
 
 If this saved you time: [PayPal.me/nerudek](https://www.paypal.me/nerudek)
 GitHub: [github.com/nerudek](https://github.com/nerudek)
+
+## Install
+
+```bash
+# Skopiuj do vault Claude Code
+cp -r . ~/.claude/skills/vault/memory-stack-audit/
+
+# Lub sklonuj bezpośrednio
+git clone https://github.com/nerudek/memory-stack-audit ~/.claude/skills/vault/memory-stack-audit/
+```
+
+## Usage
+
+```bash
+# Załaduj w Claude Code
+/skill memory-stack-audit
+```
